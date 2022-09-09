@@ -1,0 +1,62 @@
+<div class="content">
+    <style>
+        .content {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 5vw, 0;
+        }
+
+        .content img {
+            display: block;
+            max-height: 40vh;
+        }
+
+        .content #title {
+            min-width: 100vw;
+            min-height: 100vh;
+            background-image: url('media/home_img.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-top: calc(var(--max-nav-height) - var(--min-nav-height));
+        }
+
+        .content h1 {
+            font-size: 10vh;
+        }
+
+        .content .slogan {
+            display: flex;
+            flex-direction: column;
+            margin-top: 10vh;
+            align-self: flex-start;
+            padding: 5vw;
+        }
+
+        .content .slogan p {
+            font-size: 7vh;
+        }
+
+        .content #next-page {
+            border-radius: 100vh;
+            font-size: 14vh;
+            width: 80vw;
+            height: 60vh;
+            margin: 10vh;
+        }
+    </style>
+    <div id="title">
+        <img src="logo.svg" alt="A underlined double yew rotated 45 degrees clockwise" />
+        <h1>Web Design</h1>
+    </div>
+    <div class="slogan">
+        <p>Innovative.</p>
+        <p>Elegant.</p>
+        <p>Effective.</p>
+    </div>
+    <button id="next-page" onclick="load_page('about_us')">About Me</button>
+</div>

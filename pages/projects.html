@@ -1,0 +1,75 @@
+<div class="content">
+    <style>
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .content h1 {
+            font-size: 7vmin;
+        }
+
+        .content .project {
+            display: flex;
+            flex-direction: row;
+            flex-flow: wrap;
+            align-items: center;
+        }
+
+        .content .project img {
+            height: 30vmin;
+            margin: 5vmin;
+        }
+
+        .content .project .project-text-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-self: center;
+            max-width: 25vmax;
+            padding: 10vmin;
+        }
+
+        .content .project h2 {
+            font-family: 'Bitter', serif;
+            font-size: 5vmin;
+        }
+
+        .content p {
+            line-height: 2;
+        }
+
+        a.inline-link {
+            padding: 4px 7px;
+        }
+    </style>
+    <h1>My Projects</h1>
+
+    <div class="project project-image-right">
+        <div class="project-text-content">
+            <h2>Java-Chess</h2>
+            <p>Java chess was a project to learn how to use the Java swing window
+                api. It is cross platform, and can do every move in chess, except
+                capturing en passant.
+            </p>
+            <a href="https://github.com/wkaelj/Java-Chess" target="_blank" rel="noopener noreferrer"><i
+                    class="fa fa-github"></i> GitHub</a>
+        </div>
+        <img src="media/project_chess.svg" alt="A chess knight">
+    </div>
+
+    <div class="project">
+        <img src="media/spirit_logo.webp" alt="A bird diving">
+        <div class="project-text-content">
+            <h2>Spirit Render</h2>
+            <p>Spirit Render is a 3D render engine written in C, using the
+                <a class="inline-link" href="https://www.vulkan.org/">Vulkan</a>
+                graphics API. It is currently not functional.
+            </p>
+            <a href="https://github.com/wkaelj/SpiritRender" target="_blank" rel="noopener noreferrer"><i
+                    class="fa fa-github"></i> GitHub</a>
+        </div>
+    </div>
+    <div class="project project-image-right"></div>
+</div>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="155mm"
+   height="152mm"
+   viewBox="0 0 155 152"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="logo.png"
+   inkscape:export-xdpi="10.487741"
+   inkscape:export-ydpi="10.487741"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.67882997"
+     inkscape:cx="-13.994668"
+     inkscape:cy="540.63612"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="34.762249"
+       y="68.730392"
+       width="216.75623"
+       height="224.60521"
+       id="rect484" />
+    <rect
+       x="104.45938"
+       y="276.16452"
+       width="80.751282"
+       height="121.27657"
+       id="rect113" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g1346"
+       transform="translate(15.896577,5.108037)">
+      <text
+         xml:space="preserve"
+         transform="matrix(0.45892405,0.45892405,-0.412393,0.412393,77.523407,-59.835322)"
+         id="text482"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:192px;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic';white-space:pre;shape-inside:url(#rect484);fill:#ffffff"><tspan
+           x="34.761719"
+           y="234.61847"
+           id="tspan126">W</tspan></text>
+      <path
+         style="fill:#ffffff;stroke:#ffffff;stroke-width:7.55999;stroke-dasharray:none;stroke-opacity:1"
+         d="M -13.084331,44.27946 90.286477,143.92772"
+         id="path601" />
+    </g>
+  </g>
+</svg>

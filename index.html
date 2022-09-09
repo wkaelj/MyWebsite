@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+
+<head>
+    <title>Web Design</title>
+
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta name="description" content="Web Design website">
+
+    <script src="src/dynamic_page.js" defer></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="body">
+    <div class="nav">
+        <img src="logo.svg" alt="A underlined double yew rotated 45 degrees clockwise" />
+        <i id="nav-bars" class="fa fa-bars"></i>
+        <ul id="nav-links">
+            <li><button onclick="load_page('home')"><i class="fa fa-home"></i> Home</button></li>
+            <li><button onclick="load_page('about_us')"><i class="fa fa-book"></i> About Me</button></li>
+            <li><button onclick="load_page('projects')"><i class="fa fa-shopping-bag"></i> Projects</button></li>
+            <!-- <li><button onclick="load_page('faq')"><i class="fa fa-question-circle"></i> FAQ</button></li> -->
+        </ul>
+    </div>
+
+    <div id="content-wrapper">
+        <div id="content">
+            <h1>Loading Site</h1>
+        </div>
+    </div>
+
+</body>
+
+</html>
