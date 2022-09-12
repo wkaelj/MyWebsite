@@ -4,16 +4,15 @@ const page_content = document.getElementById("content");
 
 function convert_page(simple_name) {
 
-    let port = "5010";
     switch (simple_name) {
         case "home":
-            return "http://0.0.0.0:" + port + "/pages/home.html"
+            return "pages/home.html"
         case "about_us":
-            return "http://0.0.0.0:" + port + "/pages/about_us.html";
+            return "pages/about_us.html";
         case "faq":
-            return "http://0.0.0.0:" + port + "/pages/faq.html";
+            return "pages/faq.html";
         case "projects":
-            return "http://0.0.0.0:" + port + "/pages/projects.html";
+            return "pages/projects.html";
         default:
             return null;
     }
